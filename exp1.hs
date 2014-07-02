@@ -10,3 +10,5 @@ factorial n = product [1..n]
 lucky :: (Integral a) => a -> String  
 lucky 7 = "LUCKY NUMBER SEVEN!"  
 lucky x = "Sorry, you're out of luck, pal!"   
+
+doubleUs x y = x + y
